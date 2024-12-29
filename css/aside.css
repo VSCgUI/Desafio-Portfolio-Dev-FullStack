@@ -1,0 +1,53 @@
+aside {
+    background-color: var(--base-gray-100);
+    display: grid;
+    place-items: center;
+
+    padding-top: 88px;
+}
+
+aside h3 {
+    color: var(--red);
+    font-size: 20px;
+    line-height: 120%;
+
+    margin-bottom: 8px;
+}
+
+aside > h2 {
+    font-family: var(--font-title);
+    color: var(--base-gray-600);
+    font-size: 24px;
+
+    margin-bottom: 56px;
+}
+
+#about {
+    display: flex;
+    gap: 24px;
+
+    div {
+        border: solid 2px;
+        border-color: var(--base-gray-200);
+        border-radius: 12px;
+
+        width: 280px;
+        padding: 20px;
+
+        img{
+            width: 48px;
+            height: 48px;
+        }
+
+        h2 {
+            font-family: 'Asap', sans-serif;
+            color: var(--base-gray-600);
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+    }
+
+    padding-bottom: 120px;
+    
+}
+

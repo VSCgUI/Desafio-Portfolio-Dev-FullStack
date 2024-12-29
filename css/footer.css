@@ -1,0 +1,51 @@
+footer{
+    background: url(../assets/Images/Background_Contacts.png) no-repeat;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+
+    padding-bottom: 200px;
+
+}
+
+footer h3{
+    padding-top: 128px;
+
+    color: var(--purple);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+footer h2{
+    font-family: 'Asap', sans-serif;
+    font-size: 24px;
+    color: var(--base-gray-600);
+    margin-bottom: 8px;
+}
+
+footer > p {
+    margin-bottom: 48px;
+}
+
+#contact div {
+    display: flex;
+    align-items: center;
+
+    background-color: var(--base-gray-300);
+    width: 400px;
+
+    border-radius: 8px; 
+    margin-bottom: 16px;
+    padding: 20px;
+
+    gap: 12px;
+
+    
+}
+
+#contact a {
+    margin-left: auto;
+}
+
+
